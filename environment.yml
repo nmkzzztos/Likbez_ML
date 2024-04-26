@@ -1,0 +1,32 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - pip
+  - pip:
+    - xgboost
+    - lightgbm
+    - catboost
+    - mlflow
+    - optuna
+    - shap
+    - eli5
+    - pdpbox
+    - lime
+    - seaborn
+    - plotly
+    - jupyterlab
+    - jupyter_contrib_nbextensions
+    - jupyter_nbextensions_configurator
+    - jupyterthemes
+    - jupyterlab_code_formatter
+    - jupyterlab-git
+    - jupyterlab-toc
+    - jupyterlab-system-monitor
+    - jupyterlab-topbar
